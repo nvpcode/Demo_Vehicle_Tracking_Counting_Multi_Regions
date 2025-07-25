@@ -27,18 +27,18 @@ pip install opencv-python ultralytics
 
 1.  **Prepare your video:**
 
-    *   Ensure your video file (`vehicle_counting.mp4` in the `src` directory by default) is in the correct location.
-    *   Update the video path in `src/main.py` if necessary.
+    *   Input video (`vehicle_counting.mp4`).
+    *   Update the video path in `main.py` if necessary.
 
 2.  **Download the YOLO11n model:**
 
-    *   The project uses the `yolo11n.pt` model by default. Ensure this model exists in the `src` directory.
-    *   If you want to use a different YOLO11n model, download it and update the model path in `src/main.py`.
+    *   The project uses the `yolo11n.pt` model by default.
+    *   If you want to use a different YOLO11n model, download it and update the model path in `main.py`.
 
 3.  **Run the `main.py` script:**
 
     ```bash
-    python src/main.py
+    python main.py
     ```
 
 4.  **View the output:**
@@ -47,7 +47,7 @@ pip install opencv-python ultralytics
 
 ## Configuration
 
-The following parameters can be configured in `src/main.py`:
+The following parameters can be configured in `main.py`:
 
 *   **Video Path:**
     *   Update the path to your video file using `cv2.VideoCapture()`.
